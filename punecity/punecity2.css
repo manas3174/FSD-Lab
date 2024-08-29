@@ -1,0 +1,85 @@
+*{
+    background-color:#0d1321;
+}
+
+h1{
+    color:#f0ebd8;
+    margin: 0 0 0 0;
+    padding: 30px 20px;
+    font-family: 'Academy Engraved LET', sans-serif;
+    font-weight:700;
+    text-transform: uppercase;
+    text-align: center;
+    border-color: #f0ebd8;
+    text-shadow: 2px 0 15px #f0ebd8;
+    font-size: 3em;
+    border-bottom: solid 1px ;
+    letter-spacing: 20px;
+}
+
+li{
+    margin-top: 50px;
+    color: #f0ebd8;
+    font-size: 1.5em;
+    font-family: 'Academy Engraved LET', sans-serif;
+    text-shadow: 2px 0 15px #f0ebd8;
+    margin-left: 20px;
+}
+
+p{
+    font-family: baskerville;
+    font-size: 0.75em;
+    line-height: 30px;
+}
+
+.box{
+    width:90%;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content:space-between;
+}
+
+img, iframe{
+    height: 300px;
+}
+
+#heading{
+    font-size: 1em;
+    letter-spacing: 10px;
+}
+
+a{
+    color: #b2cede;
+    font-size: 1em;
+    font-family: 'Academy Engraved LET', sans-serif;
+    text-shadow: 2px 0 15px #b2cede;
+}
+
+.table-text{
+    color:#f0ebd8;
+    font-family: 'Academy Engraved LET', sans-serif;
+    font-size: 1em;
+    line-height: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid #f0ebd8;
+    padding: 8px;
+    text-align: left;
+    text-shadow: 2px 0 15px #b2cede;
+}
+
+td{
+    border-left: 1px solid #f0ebd8;
+    border-right: 1px solid #f0ebd8;
+    padding: 8px;
+    text-align: left;
+    text-shadow: 2px 0 15px #b2cede;
+}
