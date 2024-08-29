@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript">
+    function getNumbers() {
+      var num1 = parseFloat(document.getElementById("num1").value);
+      var num2 = parseFloat(document.getElementById("num2").value);
+      return [num1, num2];
+    }
+
+    function addNumbers() {
+      var numbers = getNumbers();
+      var result = numbers[0] + numbers[1];
+      document.getElementById("result").value =  result;
+    }
+
+    function subtractNumbers() {
+      var numbers = getNumbers();
+      var result = numbers[0] - numbers[1];
+      document.getElementById("result").value =  result;
+    }
+
+    function multiplyNumbers() {
+      var numbers = getNumbers();
+      var result = numbers[0] * numbers[1];
+      document.getElementById("result").value =  result;
+    }
+    function divideNumbers() {
+      var numbers = getNumbers();
+      var result = numbers[0] / numbers[1];
+      document.getElementById("result").value =  result;
+    }
+    function clearFields() {
+      document.getElementById("num1").value = "";
+      document.getElementById("num2").value = "";
+      document.getElementById("result").value = "";
+    }
+  </script>
+</head>
+<body>
+  <h2>Operations on number</h2>
+
+  <label for="num1">Enter first number:</label>
+  <input type="text" id="num1" name="num1"><br><br>
+
+  <label for="num2">Enter second number:</label>
+  <input type="text" id="num2" name="num2"><br><br>
+
+  <button onclick="addNumbers()">Add</button>
+  <button onclick="subtractNumbers()">Subtract</button>
+  <button onclick="multiplyNumbers()">Multiply</button>
+  <button onclick="divideNumbers()">Divide</button>
+  <button onclick="clearFields()">clear</button>
+  <br><br>
+
+
+  <label for="result">Result:</label>
+  <input type="text" id="result" name="result" readonly><br><br>
+</body>
+</html>
